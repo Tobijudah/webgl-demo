@@ -1,0 +1,40 @@
+body {
+	/* make the body fits our viewport */
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#canvas {
+	/* make the canvas wrapper fits the document */
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.help {
+	position: relative;
+	width: 938px;
+	aspect-ratio: 938/406;
+	max-width: 90vw;
+}
+
+.plane {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.plane img {
+	/* hide the img element */
+	display: none;
+}
